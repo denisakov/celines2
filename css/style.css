@@ -40,8 +40,8 @@ section.module.parallax #foodpic {
   text-shadow: none;
   color: transparent;
   background-size: 100%;
-  /*background-position: 50% 50%;*/
-  /*background-repeat: no-repeat;*/
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 section.module.parallax #foodpic .inner {
@@ -61,7 +61,7 @@ section.module.parallax h1 {
 }
 
 /* default screen, non-retina */
-/*section.module.parallax-1 {
+section.module.parallax-1 {
   background-image: url("../img/content/bg/large.jpg");
 }
 section.module.parallax-2 {
@@ -69,13 +69,13 @@ section.module.parallax-2 {
 }
 section.module.parallax-3 {
   background-image: url("../img/content/bg5/large.jpg");
-}*/
+}
 /*             */
 /* NON-RETINA */
 /*            */
 /* Small */
 @media only screen and (max-width: 320px) {
-    section.module.parallax-1 {
+      section.module.parallax-1 {
         background-image: url("../img/content/bg/small.jpg");
       }
       section.module.parallax-2 {
@@ -84,11 +84,10 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/small.jpg");
       }
-    }
 }
 /* Medium */
 @media only screen and (min-width: 321px) and (max-width: 538px) {
-    section.module.parallax-1 {
+      section.module.parallax-1 {
         background-image: url("../img/content/bg/medium.jpg");
       }
       section.module.parallax-2 {
@@ -97,7 +96,6 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/medium.jpg");
       }
-    }
 }
 
 /*        */
@@ -105,7 +103,7 @@ section.module.parallax-3 {
 /*        */
 /* Small */
 @media only screen and (min-resolution: 2dppx) and (max-width: 320px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    section.module.parallax-1 {
+      section.module.parallax-1 {
         background-image: url("../img/content/bg/smallx2.jpg");
       }
       section.module.parallax-2 {
@@ -114,11 +112,10 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/smallx2.jpg");
       }
-    }
 }
 /* Medium */
 @media only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    section.module.parallax-1 {
+      section.module.parallax-1 {
         background-image: url("../img/content/bg/mediumx2.jpg");
       }
       section.module.parallax-2 {
@@ -127,11 +124,10 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/mediumx2.jpg");
       }
-    }
 }
 /* Large */
 @media only screen and (min-resolution: 2dppx) and (min-width: 539px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    section.module.parallax-1 {
+      section.module.parallax-1 {
         background-image: url("../img/content/bg/largex2.jpg");
       }
       section.module.parallax-2 {
@@ -140,7 +136,6 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/largex2.jpg");
       }
-    }
 }
 
 
