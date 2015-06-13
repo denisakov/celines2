@@ -1,0 +1,109 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  /*font-family: "Roboto Slab", serif;*/
+  font-family: "Fira Sans", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/content/bg/medium.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/content/bg/xlarge.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/content/bg2.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+/* ============================================================
+  MENU
+============================================================ */
+.fix-nav {
+ /* this make our menu fixed top */
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+ 
+.fix-body {
+ /* this will adjust body top margin to prevent content jumping when nav gets fix  */
+    margin-top: 50px;
+ /* adjust as per height of your menu */;
+}
+.nav-container {
+    background-color: #f86d5a;
+}
+ 
+.nav {
+ /* total height of menu is 50px */
+    height: 46px;
+    border-bottom: 4px solid #222;
+}
+ 
+.nav ul {
+    list-style: none;
+}
+ 
+.nav ul li {
+    float: left;
+    line-height: 46px;
+}
+ 
+.nav ul li a {
+}
+ 
+.nav ul li a:hover {
+}
