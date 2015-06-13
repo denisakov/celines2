@@ -23,6 +23,7 @@ section.module.content {
 }
 section.module.parallax {
   height: 600px;
+  width: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -48,6 +49,7 @@ section.module.parallax #foodpic .inner {
     padding-top: 63.35%; /* height/width of image */
     display: block;
     height: 0;
+    width: 100%;
 }
 
 section.module.parallax h1 {
