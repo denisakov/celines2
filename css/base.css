@@ -17,7 +17,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 1em;
+  font-size: 18px;
   font: inherit;
   vertical-align: baseline;
 }
@@ -75,7 +75,7 @@ body {
   background-color: #b4b4b4;
   color: #787878;
   font-family: "Fira Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 14px;
+  /*font-size: 14px;*/
   line-height: 1.5;
 }
 
