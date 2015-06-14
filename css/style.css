@@ -78,6 +78,7 @@ section.module.parallax-3 {
 @media only screen and (max-width: 320px) {
       section.module.paralax{
         background-attachment: scroll;
+        background-position: 0% 0%;
       }
       section.module.parallax-1 {
         background-image: url("../img/content/bg/medium.jpg");
