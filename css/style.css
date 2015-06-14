@@ -23,7 +23,7 @@ section.module.content {
 }
 section.module.parallax {
   height: 600px;
-  max-width: 100px;
+  max-width: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -34,13 +34,13 @@ section.module.parallax {
 }
 
 section.module.parallax #foodpic {
-  width: 100%;
+  max-width: 100%;
   display: inline-block;
   vertical-align: middle;
   font: 0/0 serif;
   text-shadow: none;
   color: transparent;
-  background-size: 100%;
+  /*background-size: 100%;*/
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
