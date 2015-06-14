@@ -76,7 +76,7 @@ section.module.parallax-3 {
 /* NON-RETINA */
 /*            */
 /* Small */
-@media only screen and (max-width: 320px) {
+/*@media only screen and (max-width: 320px) {
       section.module.parallax-1 {
         background-image: url("../img/content/bg/small.jpg");
       }
@@ -99,7 +99,7 @@ section.module.parallax-3 {
         background-image: url("../img/content/bg5/medium.jpg");
       }
 }
-
+*/
 /*        */
 /* RETINA */
 /*        */
