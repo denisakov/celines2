@@ -8,7 +8,7 @@ section.module h2 {
   margin-bottom: 40px;
   /*font-family: "Roboto Slab", serif;*/
   font-family: "Fira Sans", serif;
-  font-size: 5em;
+  font-size: 3em;
 }
 section.module p {
   margin-bottom: 40px;
@@ -23,7 +23,7 @@ section.module.content {
 }
 section.module.parallax {
   height: 600px;
-  max-width: 100%;
+  /*max-width: 100%;*/
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -49,7 +49,6 @@ section.module.parallax #foodpic .inner {
     padding-top: 63.35%; /* height/width of image */
     display: block;
     height: 0;
-    width: 100%;
 }
 
 section.module.parallax h1 {
@@ -77,6 +76,9 @@ section.module.parallax-3 {
 /*            */
 /* Small */
 @media only screen and (max-width: 320px) {
+      section.module.paralax{
+        background-attachment: fixed;
+      }
       section.module.parallax-1 {
         background-image: url("../img/content/bg/small.jpg");
       }
@@ -143,7 +145,7 @@ section.module.parallax-3 {
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 42px;
+    font-size: 3em;
   }
   section.module p {
     font-size: 20px;
