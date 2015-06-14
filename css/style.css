@@ -22,7 +22,7 @@ section.module.content {
   padding: 40px 0;
 }
 section.module.parallax {
-  height: 600px;
+  height: 40em;
   width: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -63,34 +63,19 @@ section.module.parallax h1 {
 
 /* default screen, non-retina */
 section.module.parallax-1 {
-  background-image: url("../img/content/bg/large.jpg");
+  background-image: url("../img/content/bg/largex2.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../img/content/bg3/large.jpg");
+  background-image: url("../img/content/bg3/largex2.jpg");
 }
 section.module.parallax-3 {
-  background-image: url("../img/content/bg5/large.jpg");
+  background-image: url("../img/content/bg5/largex2.jpg");
 }
 /*             */
 /* NON-RETINA */
 /*            */
 /* Small */
 @media only screen and (max-width: 320px) {
-      section.module.paralax{
-        background-attachment: scroll;
-      }
-      section.module.parallax-1 {
-        background-image: url("../img/content/bg/small.jpg");
-      }
-      section.module.parallax-2 {
-        background-image: url("../img/content/bg3/small.jpg");
-      }
-      section.module.parallax-3 {
-        background-image: url("../img/content/bg5/small.jpg");
-      }
-}
-/* Medium */
-@media only screen and (min-width: 321px) and (max-width: 538px) {
       section.module.paralax{
         background-attachment: scroll;
       }
@@ -102,6 +87,21 @@ section.module.parallax-3 {
       }
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/medium.jpg");
+      }
+}
+/* Medium */
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+      section.module.paralax{
+        background-attachment: scroll;
+      }
+      section.module.parallax-1 {
+        background-image: url("../img/content/bg/large.jpg");
+      }
+      section.module.parallax-2 {
+        background-image: url("../img/content/bg3/large.jpg");
+      }
+      section.module.parallax-3 {
+        background-image: url("../img/content/bg5/large.jpg");
       }
 }
 
