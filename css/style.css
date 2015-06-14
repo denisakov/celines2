@@ -8,7 +8,7 @@ section.module h2 {
   margin-bottom: 40px;
   /*font-family: "Roboto Slab", serif;*/
   font-family: "Fira Sans", serif;
-  font-size: 3em;
+  font-size: 2em;
 }
 section.module p {
   margin-bottom: 40px;
@@ -91,6 +91,9 @@ section.module.parallax-3 {
 }
 /* Medium */
 @media only screen and (min-width: 321px) and (max-width: 538px) {
+      section.module.paralax{
+        background-attachment: scroll;
+      }
       section.module.parallax-1 {
         background-image: url("../img/content/bg/medium.jpg");
       }
@@ -107,6 +110,9 @@ section.module.parallax-3 {
 /*        */
 /* Small */
 @media only screen and (min-resolution: 2dppx) and (max-width: 320px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+      section.module.paralax{
+        background-attachment: scroll;
+      }
       section.module.parallax-1 {
         background-image: url("../img/content/bg/smallx2.jpg");
       }
@@ -119,6 +125,9 @@ section.module.parallax-3 {
 }
 /* Medium */
 @media only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+      section.module.paralax{
+        background-attachment: scroll;
+      }
       section.module.parallax-1 {
         background-image: url("../img/content/bg/mediumx2.jpg");
       }
@@ -148,15 +157,15 @@ section.module.parallax-3 {
     font-size: 3em;
   }
   section.module p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   section.module.parallax h1 {
-    font-size: 96px;
+    font-size: 6em;
   }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    font-size: 9em;
   }
 }
 /* ============================================================
