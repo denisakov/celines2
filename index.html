@@ -4,11 +4,12 @@
 <head>
   <!-- title and meta -->
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="description" name="One of the most cosy and delicious cafes in Nisantasi area of Istanbul.">
+  <meta name="keywords" content="Nişantaşı Cafe, Nişantaşı Restorant, Nişantaşı Dining Room, Nişantaşı Cafe Restorant, İstanbul Cafe Restorant, Osmanbey Cafe Restorant" />
+  <meta name="description" content="Celine's Dining Room Nişantaşında usta şeflerimizin muhteşem lezzetleri ile ağız tadınıza layık ziyafet ve güzel vakit geçirme imkanı sunuyor." />
 
-  <title>Celine's Cafe</title>
+  <title>Celine's Dining Romm</title>
 
   <!-- css -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
@@ -20,13 +21,14 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="js/modernizr.js"></script>
   <script src="js/menu.js"></script>
+  <script src="js/logo.js"></script>
 </head>
 
 <body>
 
 <div class="wrapper">
 
-  <div class="info-bar">
+  <!-- <div class="info-bar">
     <div class="container">
       <a class="icon cmn-tut" data-title="Back To Tutorial" href="#"></a>
       <a class="icon cmn-prev" data-title="#" href="#"></a>
@@ -34,31 +36,35 @@
       <a class="icon cmn-download" data-title="Download Source" href="#"></a>
       <a class="icon cmn-archive" data-title="Tutorial Archives" href="#"></a>
     </div>
-  </div>
+  </div> -->
 
   <main>
+        <section class="module parallax parallax-1">
+          <span id="foodpic" role="img" aria-label="Mouthwatering picture">
+              
+            <span class="inner"></span>
+            <h1>
+              <img class="logo" alt="The logo of our dining room" src="img/menu/logo.png">
+            </h1>
+
+          </span>
+        </section>
+
+        <div class="nav-container">
+           <div class="nav">
+              <ul>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Menu</a></li>
+                 <li><a href="">Gallery</a></li>
+                 <li><a href="">Location</a></li>
+              </ul>         
+           </div>
+        </div>
       
-      <section class="module parallax parallax-1">
-        <span id="foodpic" role="img" aria-label="Mouthwatering picture">
-          <h1>Serene</h1>
-          <span class="inner"></span>
-        </span>
-      </section>
-
-      <div class="nav-container">
-         <div class="nav">
-            <ul>
-               <li><a href="">Menu I</a></li>
-               <li><a href="">Menu II</a></li>
-               <li><a href="">Menu III</a></li>
-            </ul>         
-         </div>
-      </div>
-
       <section class="module content">
         <div class="container">
           
-          <h2>Lorem Ipsum Dolor</h2>
+          <h2>About us</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
           
         </div>
@@ -72,7 +78,7 @@
 
       <section class="module content">
         <div class="container">
-          <h2>Lorem Ipsum Dolor</h2>
+          <h2>Menu</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
           
         </div>
@@ -86,7 +92,7 @@
 
       <section class="module content">
         <div class="container">
-          <h2>Lorem Ipsum Dolor</h2>
+          <h2>Gallery</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
           
         </div>
@@ -118,13 +124,13 @@
             </ul>
           </nav>
         </aside>
-        <aside class="logo">
-          <a href="#"><img alt="Blah blah" onerror="this.src=logo.png" src="img/menu/logo.svg"></a>
-        </aside>
+        <!-- <aside class="logo">
+          <a href="#"><img alt="Blah blah" onerror="this.src=logo.png" src="img/menu/logo.png"></a>
+        </aside> -->
       </div>
       <div class="copyright">
         <small>
-          &copy; 2015, Denis Isakov<br><a href="#">denisakov.com</a>
+          &copy; 2015, Denis Isakov<br /><a href="#">denisakov.com</a>
         </small>
       </div>
     </div>

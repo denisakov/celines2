@@ -6,7 +6,6 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  /*font-family: "Roboto Slab", serif;*/
   font-family: "Fira Sans", serif;
   font-size: 2em;
 }
@@ -54,7 +53,7 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 4em;
-  /*line-height: 7em;*/
+  line-height: 600px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -180,33 +179,42 @@ section.module.parallax-3 {
     top: 0;
     width: 100%;
 }
+
  
 .fix-body {
  /* this will adjust body top margin to prevent content jumping when nav gets fix  */
     margin-top: 50px;
  /* adjust as per height of your menu */;
 }
+
 .nav-container {
-    background-color: #f86d5a;
+    background-color: #f8dcb5;
 }
- 
+
 .nav {
  /* total height of menu is 50px */
     height: 46px;
-    border-bottom: 4px solid #222;
+    border-bottom: 2px solid #f8dcf5;
 }
+
  
 .nav ul {
     list-style: none;
+    font-size: 1.5em;
+    font-weight: bold;
 }
  
 .nav ul li {
-    float: left;
+    float: left ;
     line-height: 46px;
+    padding-left: 20px
 }
  
 .nav ul li a {
+  color: #fff;
 }
  
 .nav ul li a:hover {
+  color: #000;
+  text-decoration: none
 }

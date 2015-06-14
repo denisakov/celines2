@@ -159,12 +159,10 @@ header .branding {
   padding: 20px 0;
 }
 header .logo {
-  margin-bottom: 20px;
-  text-align: center;
+  
 }
 header .logo img {
-  display: inline-block;
-  vertical-align: middle;
+  
 }
 header .social {
   text-align: center;
@@ -210,15 +208,10 @@ header .social a:hover {
     padding-left: 60px;
   }
   header .logo {
-    margin-bottom: 0;
-    margin-left: -60px;
-    float: left;
-    width: 60px;
-    height: 60px;
+    
   }
   header .logo img {
-    display: block;
-    margin: 0;
+    
   }
   header .social {
     padding: 15px 0;
@@ -307,9 +300,10 @@ footer .copyright a {
 ============================================================ */
 a {
   text-decoration: none;
-  color: #b4b4b4;
+  color: #00f;
 }
 
 a:hover {
+  text-decoration: underline;
   color: #818181;
 }
