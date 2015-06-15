@@ -61,7 +61,7 @@ section.module.parallax-3 {
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/small.jpg");
         size: 240vw;
-        position: fixed; 
+        position: relative; 
         top: 0; 
         left: 0; 
 
