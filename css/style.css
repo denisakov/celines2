@@ -66,7 +66,7 @@ section.module.parallax-3 {
 /*iPad in landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   section.module.parallax{
-          background-size: 285%;
+          background-size: 200%;
           background-attachment: scroll;
           top: 0;
           left: 0;
@@ -80,7 +80,7 @@ section.module.parallax-3 {
 /*iPad in portrait*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   section.module.parallax{
-          background-size: 285%;
+          background-size: 200%;
           background-attachment: scroll;
           top: 0;
           left: 0;
@@ -142,7 +142,7 @@ section.module.parallax-3 {
 /* Small */
 @media only screen and (min-resolution: 2dppx) and (max-width: 320px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       section.module.parallax{
-        background-size: 285%;
+        background-size: 200%;
         background-attachment: scroll;
         top: 0;
         left: 0;
@@ -162,7 +162,7 @@ section.module.parallax-3 {
 /* Medium */
 @media only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       section.module.parallax{
-        background-size: 285%;
+        background-size: 100%;
         background-attachment: scroll;
         top: 0;
         left: 0;
