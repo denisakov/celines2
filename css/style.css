@@ -59,11 +59,11 @@ section.module.parallax-3 {
 @media only screen and (max-width: 320px) {
       
       section.module.parallax-1 {
-        background-image: url("../img/content/bg7/small.jpg");
+        background-image: url("../img/content/bg7/small.jpg") no-repeat center center fixed;
         size: 240vw;
-        position: relative; 
+        /*position: relative; 
         top: 0; 
-        left: 0; 
+        left: 0; */
 
         /* Preserve aspet ratio */
         min-width: 100%;
