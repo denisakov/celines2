@@ -59,7 +59,7 @@ section.module.parallax-3 {
 @media only screen and (max-width: 320px) {
       
       section.module.parallax-1 {
-        background-image: url("../img/content/bg7/largex2.jpg");
+        background-image: url("../img/content/bg7/small.jpg");
         size: 240vw;
       }
       section.module.parallax-2 {
