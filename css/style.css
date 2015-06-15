@@ -59,17 +59,9 @@ section.module.parallax-3 {
 @media only screen and (max-width: 320px) {
       
       section.module.parallax-1 {
-<<<<<<< HEAD
         background-image: url("../img/content/bg7/small.jpg") no-repeat;
         background-size: 280%;
         background-attachment: scroll;
-=======
-        background-image: url("../img/content/bg7/small.jpg") no-repeat center center fixed;
-        background-size: 240%;
-        background-attachment: scroll;
-        /*position: fixed;*/
-        z-index: 1;
->>>>>>> FETCH_HEAD
         top: 0;
         left: 0;
         width: 100%;
