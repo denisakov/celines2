@@ -57,15 +57,16 @@ section.module.parallax-3 {
 /*            */
 /* Small */
 @media only screen and (max-width: 320px) {
-      
-      section.module.parallax-1 {
-        background-image: url("../img/content/bg7/small.jpg") no-repeat;
-        background-size: 280%;
+      section.module.parallax{
+        background-size: 285%;
         background-attachment: scroll;
         top: 0;
         left: 0;
         width: 100%;
-        height: 125%;
+        height: 100%;
+      }
+      section.module.parallax-1 {
+        background-image: url("../img/content/bg7/small.jpg") no-repeat;
       }
       section.module.parallax-2 {
         background-image: url("../img/content/bg3/medium.jpg");
