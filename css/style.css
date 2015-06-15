@@ -23,6 +23,7 @@ section.module.content {
 section.module.parallax {
   height: 40em;
   /*width: 100%;*/
+  z-index: 9998;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -63,6 +64,7 @@ section.module.parallax-3 {
       }
       section.module.parallax-1 {
         background-image: url("../img/content/bg/medium.jpg");
+        width: 30em;
       }
       section.module.parallax-2 {
         background-image: url("../img/content/bg3/medium.jpg");
