@@ -61,6 +61,13 @@ section.module.parallax-3 {
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/small.jpg");
         size: 240vw;
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+
+        /* Preserve aspet ratio */
+        min-width: 100%;
+        min-height: 100%;
       }
       section.module.parallax-2 {
         background-image: url("../img/content/bg3/medium.jpg");
