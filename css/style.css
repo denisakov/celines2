@@ -43,15 +43,59 @@ section.module.parallax h1 {
 }
 
 /* default screen, non-retina */
-section.module.parallax-1 {
-  background-image: url("../img/content/bg7/largex2.jpg");
+/*@media only screen and (min-width: 539px){
+  section.module.parallax{
+        background-size: cover;
+        background-attachment: scroll;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }*/
+  section.module.parallax-1 {
+    background-image: url("../img/content/bg7/largex2.jpg");
+  }
+  section.module.parallax-2 {
+    background-image: url("../img/content/bg3/largex2.jpg");
+  }
+  section.module.parallax-3 {
+    background-image: url("../img/content/bg5/largex2.jpg");
+  }
+/*}*/
+/*iPad in portrait & landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  section.module.parallax{
+          background-size: 285%;
+          background-attachment: scroll;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
 }
-section.module.parallax-2 {
-  background-image: url("../img/content/bg3/largex2.jpg");
+/*iPad in landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  section.module.parallax{
+          background-size: 285%;
+          background-attachment: scroll;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
 }
-section.module.parallax-3 {
-  background-image: url("../img/content/bg5/largex2.jpg");
+/*iPad in portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  section.module.parallax{
+          background-size: 285%;
+          background-attachment: scroll;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
 }
+
 /*             */
 /* NON-RETINA */
 /*            */
