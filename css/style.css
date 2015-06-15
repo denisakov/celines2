@@ -42,26 +42,16 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* default screen, non-retina */
-/*@media only screen and (min-width: 539px){
-  section.module.parallax{
-        background-size: cover;
-        background-attachment: scroll;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }*/
-  section.module.parallax-1 {
-    background-image: url("../img/content/bg7/largex2.jpg");
-  }
-  section.module.parallax-2 {
-    background-image: url("../img/content/bg3/largex2.jpg");
-  }
-  section.module.parallax-3 {
-    background-image: url("../img/content/bg5/largex2.jpg");
-  }
-/*}*/
+section.module.parallax-1 {
+  background-image: url("../img/content/bg7/largex2.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/content/bg3/largex2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/content/bg5/largex2.jpg");
+}
+
 /*iPad in portrait & landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   section.module.parallax{
@@ -82,6 +72,9 @@ section.module.parallax h1 {
           left: 0;
           width: 100%;
           height: 100%;
+        }
+        section.module.parallax h1 {
+          line-height: 400px;
         }
 }
 /*iPad in portrait*/
@@ -122,7 +115,7 @@ section.module.parallax h1 {
 /* Medium */
 @media only screen and (min-width: 321px) and (max-width: 538px) {
       section.module.parallax{
-        background-size: 285%;
+        background-size: 200%;
         background-attachment: scroll;
         top: 0;
         left: 0;
@@ -138,6 +131,9 @@ section.module.parallax h1 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/medium.jpg");
       }
+      section.module.parallax h1 {
+          line-height: 400px;
+        }
 }
 
 /*        */
@@ -182,6 +178,9 @@ section.module.parallax h1 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/mediumx2.jpg");
       }
+      section.module.parallax h1 {
+          line-height: 400px;
+        }
 }
 /* Large */
 @media only screen and (min-resolution: 2dppx) and (min-width: 539px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
