@@ -61,8 +61,8 @@ section.module.parallax-3 {
       
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/medium.jpg");
-        min-width: 10%;
-        min-height: 10%;
+        max-width: 10%;
+        max-height: 10%;
       }
       section.module.parallax-2 {
         background-image: url("../img/content/bg3/medium.jpg");
