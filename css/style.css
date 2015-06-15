@@ -103,7 +103,7 @@ section.module.parallax-3 {
         height: 100%;
       }
       section.module.parallax-1 {
-        background-image: url("../img/content/bg7/small.jpg");
+        background-image: url("../img/content/bg2/small.jpg");
       }
       section.module.parallax-2 {
         background-image: url("../img/content/bg3/small.jpg");
@@ -139,7 +139,7 @@ section.module.parallax-3 {
 /* RETINA */
 /*        */
 /* Small */
-@media only screen and (min-resolution: 2dppx) and (max-width: 320px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+/*@media only screen and (min-resolution: 2dppx) and (max-width: 320px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       section.module.parallax{
         background-size: 200%;
         background-attachment: scroll;
@@ -157,9 +157,9 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/smallx2.jpg");
       }
-}
+}*/
 /* Medium */
-@media only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+/*@media only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       section.module.parallax{
         background-size: 100%;
         background-attachment: scroll;
@@ -180,9 +180,9 @@ section.module.parallax-3 {
       section.module.parallax h1 {
           line-height: 400px;
         }
-}
+}*/
 /* Large */
-@media only screen and (min-resolution: 2dppx) and (min-width: 539px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+/*@media only screen and (min-resolution: 2dppx) and (min-width: 539px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/largex2.jpg");
@@ -193,7 +193,7 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/largex2.jpg");
       }
-}
+}*/
 
 
 @media all and (min-width: 600px) {
