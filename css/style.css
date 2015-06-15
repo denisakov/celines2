@@ -22,33 +22,15 @@ section.module.content {
 }
 section.module.parallax {
   height: 40em;
-  width: 100%;
+  /*width: 100%;*/
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
-  /*-webkit-background-size: cover;*/
-  /*-moz-background-size: cover;*/
-  /*-o-background-size: cover;*/
-  /*background-size: cover;*/
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-/*section.module.parallax #foodpic {
-  width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-  font: 0/0 serif;
-  text-shadow: none;
-  color: transparent;
-  background-size: 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}*/
-
-/*section.module.parallax #foodpic .inner {
-    padding-top: 66.6%;  height/width of image 
-    display: block;
-    height: 0;
-}*/
 
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
