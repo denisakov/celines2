@@ -64,7 +64,7 @@ section.module.parallax-3 {
         }
 }
 /*iPad in landscape*/
-/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   section.module.parallax{
           background-size: 100%;
           background-attachment: scroll;
@@ -76,9 +76,9 @@ section.module.parallax-3 {
         section.module.parallax h1 {
           line-height: 400px;
         }
-}*/
+}
 /*iPad in portrait*/
-/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   section.module.parallax{
           background-size: 130%;
           background-attachment: scroll;
@@ -88,7 +88,7 @@ section.module.parallax-3 {
           height: 100%;
         }
 }
-*/
+
 /*             */
 /* NON-RETINA */
 /*            */
