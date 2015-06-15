@@ -60,7 +60,7 @@ section.module.parallax-3 {
       
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/small.jpg") no-repeat center center fixed;
-        size: 240vw;
+        background-size: 320px, 200vw;
         /*position: relative; 
         top: 0; 
         left: 0; */
