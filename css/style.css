@@ -184,6 +184,7 @@ section.module.parallax-3 {
 }
 /* Large */
 @media only screen and (min-resolution: 2dppx) and (min-width: 539px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+      
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/largex2.jpg");
       }
