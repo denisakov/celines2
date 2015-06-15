@@ -95,12 +95,12 @@ section.module.parallax-3 {
 /* Small */
 @media only screen and (max-width: 320px) {
       section.module.parallax{
-        background-size: 285%;
+        background-size: 300%;
         background-attachment: scroll;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 125%;
       }
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/small.jpg") no-repeat;
@@ -115,7 +115,7 @@ section.module.parallax-3 {
 /* Medium */
 @media only screen and (min-width: 321px) and (max-width: 538px) {
       section.module.parallax{
-        background-size: 250%;
+        background-size: 230%;
         background-attachment: scroll;
         top: 0;
         left: 0;
