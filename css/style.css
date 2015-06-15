@@ -94,13 +94,13 @@ section.module.parallax-3 {
 /*            */
 /* Small */
 @media only screen and (max-width: 320px) {
-      section.module.parallax{
-        background-size: 130%;
+      section.module.parallax {
+        background-size: 190%;
         background-attachment: scroll;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 300px;
       }
       section.module.parallax-1 {
         background-image: url("../img/content/bg4/small.jpg");
@@ -111,6 +111,9 @@ section.module.parallax-3 {
       section.module.parallax-3 {
         background-image: url("../img/content/bg5/small.jpg");
       }
+      section.module.parallax h1 {
+        line-height: 300px;
+      }
 }
 /* Medium */
 @media only screen and (min-width: 321px) and (max-width: 538px) {
@@ -120,7 +123,7 @@ section.module.parallax-3 {
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 300px;
       }
       section.module.parallax-1 {
         background-image: url("../img/content/bg7/medium.jpg");
@@ -132,8 +135,8 @@ section.module.parallax-3 {
         background-image: url("../img/content/bg5/medium.jpg");
       }
       section.module.parallax h1 {
-          line-height: 400px;
-        }
+        line-height: 300px;
+      }
 }
 /*        */
 /* RETINA */
