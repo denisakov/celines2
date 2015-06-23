@@ -21,6 +21,7 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="js/modernizr.js"></script>
   <script src="js/menu.js"></script>
+  <script src="js/toggle.js"></script>
   <!--<script src="js/parallax.js"></script>-->
 </head>
 
@@ -51,15 +52,20 @@
         </section>
 
         <div class="nav-container">
-           <div class="nav">
-              <ul>
-                 <li><a href="">About</a></li>
-                 <li><a href="">Menu</a></li>
-                 <li><a href="">Gallery</a></li>
-                 <li><a href="">Location</a></li>
-              </ul>         
-           </div>
+          <nav id="nav-main">
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="">Gallery</a></li>
+              <li><a href="">Location</a></li>
+            </ul>         
+          </nav>
+          <div id="nav-trigger">
+            <span></span>
+          </div>
+          <nav id="nav-mobile"></nav>
         </div>
+        
       
       <section class="module content">
         <div class="container">
