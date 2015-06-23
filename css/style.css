@@ -42,6 +42,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* PICTURES ----------------------------------------------*/
 section.module.parallax-1 {
   background-image: url("../img/content/bg7/largex2.jpg");
 }
@@ -199,22 +200,6 @@ section.module.parallax-3 {
 }*/
 
 
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 3em;
-  }
-  section.module p {
-    font-size: 1.25em;
-  }
-  section.module.parallax h1 {
-    font-size: 6em;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 9em;
-  }
-}
 /* ============================================================
   MENU #8f413a, #a6937e, #F8DCA5, #d6b85e, #5f5651
 ============================================================ */
@@ -226,7 +211,6 @@ section.module.parallax-3 {
     top: 0;
     width: 100%;
 }
-
  
 .fix-body {
  /* this will adjust body top margin to prevent content jumping when nav gets fix  */
@@ -237,31 +221,6 @@ section.module.parallax-3 {
 .nav-container {
     background-color: #F8DCA5;
 }
-
-/*.nav {
- /* total height of menu is 50px
-    height: 46px;
-    border-bottom: 2px solid #f8dcf5;
-}*/ 
-/*.nav ul {
-    list-style: none;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-*/ 
-/*.nav ul li {
-    float: left ;
-    line-height: 46px;
-    padding-left: 20px
-}*/
-/*.nav ul li a {
-  color: #fff;
-}*/
-/*.nav ul li a:hover {
-  color: #000;
-  text-decoration: none
-}*/
-
 #nav-trigger {
   display: none;
   text-align: right; }
@@ -288,27 +247,23 @@ section.module.parallax-3 {
       border-top: none;
       border-bottom: solid 10px #fff;
       border-right: solid 10px transparent; }
-/*nav {
-  margin-bottom: 30px; }*/
 nav#nav-main {
-  /*background-color: #ff0032;*/
   padding: 10px 0;
   height: 46px; }
   nav#nav-main ul {
-    /*list-style-type: none;*/
     margin: 0;
     padding: 0;
     /*text-align: center;*/ }
   nav#nav-main li {
     display: inline-block;
-    /*border-right: solid 1px #cc0028;*/
     padding: 0; }
     nav#nav-main li:last-child {
       border-right: none; }
   nav#nav-main a {
     /*display: block;*/
     color: #5f5651;
-    padding: 14px 30px; }
+    padding: 15px 30px 10px 30px;
+    }
     nav#nav-main a:hover {
       background-color: #8f413a;
       color: #F8DCA5;
@@ -329,8 +284,6 @@ nav#nav-mobile {
     background-color: #F8DCA5; }
   nav#nav-mobile li {
     display: block;
-    /*padding: 5px 0;*/
-    /*margin: 0 5px;*/
     border-top: solid 1px #8f413a; }
     /*nav#nav-mobile li:last-child {
       border-bottom: none; }*/
@@ -344,7 +297,28 @@ nav#nav-mobile {
       text-decoration: none; }
 
 /* Media Queries -------------------------------- */
-@media all and (max-width: 900px) {
+/* FONT SIZE ------------------------*/
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 3em;
+  }
+  section.module p {
+    font-size: 1.25em;
+  }
+  section.module.parallax h1 {
+    font-size: 6em;
+  }
+  nav#nav-main ul li{
+    font-size: 1.25em;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 9em;
+  }
+}
+/* Trigger ---------------------------*/
+@media all and (max-width: 960px) {
   #nav-trigger {
     display: block; }
 
