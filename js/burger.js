@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 
-  "use strict";
+  // "use strict";
 
   var toggles = document.querySelectorAll(".c-hamburger");
 
