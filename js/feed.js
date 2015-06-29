@@ -5,7 +5,7 @@ var feed = new Instafeed({
   tagName: 'restaurant',
   limit: 5,
   clientId: '11abb048770444eba3c05645f3d5087e',
-  useHttp: true,
+  // useHttp: true,
   after: function () {
     var images = $("#instafeed").find('a');
     $.each(images, function(index, image) {
