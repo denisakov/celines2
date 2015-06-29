@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/burger.css">
+  <link rel="stylesheet" href="css/food.css">
+  <link rel="stylesheet" href="css/insta.css">
 
   <!-- js -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -24,6 +26,10 @@
   <script src="js/menu.js"></script>
   <script src="js/burger.js"></script>
   <script src="js/toggle.js"></script>
+  <script src="js/food.js"></script>
+  <script src="js/classie.js"></script>
+  <script type="text/javascript" src="js/feed.js"></script>
+  <script type="text/javascript" src="js/instafeed.min.js"></script>
   <!--<script src="js/parallax.js"></script>-->
 </head>
 
@@ -44,12 +50,10 @@
   <main>
   <!-- <img src="img/content/bg/largex2.jpg" width="100%" /> -->
         <section class="module parallax parallax-1">
-          <span id="foodpic" role="img" aria-label="Mouthwatering picture">
-              
+          <span id="foodpic" role="img" aria-label="Mouthwatering picture">              
             <h1>
               <img class="logo" alt="The logo of our dining room" src="img/menu/logo.png">
             </h1>
-
           </span>
         </section>
 
@@ -72,14 +76,12 @@
           <nav id="nav-mobile"></nav>
         </div>
         
+
       
       <section class="module content">
         <div class="container">
           
           <h2>About us</h2>
-          <button class="c-hamburger c-hamburger--htx">
-            <span>toggle menu</span>
-          </button>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
           
         </div>
@@ -91,24 +93,105 @@
         </div>
       </section>
 
-      <section class="module content">
+      <section class="content">
         <div class="container">
-          <h2>Menu</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-          
+          <nav class="foodmenu-nav">
+            <ul class="clearfix">
+              <li><a href="#breakfast">Breakfast</a></li>
+              <li><a href="#starters">Starters</a></li>
+              <li><a href="#maincource">Main Courses</a></li>
+              <li><a href="#salads">Salads</a></li>
+              <li><a href="#burgers">Burgers and Sandwishes</a></li>
+              <li><a href="#toasts">Toasts</a></li>
+              <li><a href="#omlets">Omlets</a></li>
+              <li><a href="#bbq">Barbeque</a></li>
+              <li><a href="#wraps">Wraps</a></li>
+              <li><a href="#pasta">Pastas</a></li>
+              <li><a href="#pizza">Pizzas</a></li>
+              <li><a href="#sweets">Sweets</a></li>
+            </ul>
+          </nav>
+          <section id="breakfast">
+            <div class="content">
+              <article>
+                <h2>Breakfast</h2>
+                <p>SOĞUK KAHVALTI TABAĞI<br />
+                (Tereyağ, bal, peynir çeşitleri, jambon, zeytin, nutella, domates, salatalık)</p>
+                <p>SICAK KAHVALTI TABAĞI <br />
+                (sahanda yumurta, sosis, baharatlı küp patates, sote mantar)</p>
+                <p>SİMİT TABAĞI<br />
+                (simit, beyaz peynir, zeytin, domates, salatalık)</p>
+                <p>KAŞARLI SİMİT<br />
+                (simit arasında eritilmiş kaşar, patates cipsi)</p>
+              </article>
+              <a class="close" href="#">x</a>
+            </div>
+          </section>
+          <section id="starters">
+            <div class="content">
+              <article>
+                <h2>CSS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+              </article>
+              <a class="close" href="#">x</a>
+            </div>
+          </section>
+          <section id="maincourse">
+            <div class="content">
+              <article>
+                <h2>JS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+              </article>
+              <a class="close" href="#">x</a>
+            </div>
+          </section>
+          <section id="salads">
+            <div class="content">
+              <article>
+                <h2>PHP</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+              </article>
+              <a class="close" href="#">x</a>
+            </div>
+          </section>
+          <section id="burgers">
+            <div class="content">
+              <article>
+                <h2>Rails</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+              </article>
+              <a class="close" href="#">x</a>
+            </div>
+          </section>
+          <section id="toasts">
+            <div class="content">
+              <article>
+                <h2>Swift</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos dolores harum, corrupti, hic placeat nam autem consectetur veritatis, distinctio omnis magnam doloremque error rerum nihil ad libero cupiditate nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet magnam totam sit natus magni voluptatem a molestiae rem. Voluptates illum ex quibusdam nostrum quas, est totam cum quasi nulla similique.</p>
+              </article>
+              <a class="close" href="#">x</a>
+            </div>
+          </section>          
         </div>
       </section>
 
       <section class="module parallax parallax-3">
         <div class="container">
-          <h1>Drinks</h1>
+          <h1>Action</h1>
         </div>
       </section>
 
       <section class="module content">
         <div class="container">
-          <h2>Gallery</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+          <h2></h2>
+          <p>
+            <div id="instafeed"></div><button id="load-more">more</button>
+          </p>
           
         </div>
       </section>
@@ -150,8 +233,11 @@
       </div>
     </div>
   </footer><!-- /footer -->
+
   
 </div><!-- /#wrapper -->
+
+          
 
 <!-- ads -->
 

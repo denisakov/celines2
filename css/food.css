@@ -1,0 +1,96 @@
+nav.foodmenu-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav.foodmenu-nav li {
+  display: block;
+  margin: 0 0 1px 0;
+}
+nav.foodmenu-nav a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  background-color: #b4e664;
+  text-align: center;
+}
+nav.foodmenu-nav a:hover {
+  background-color: #85c420;
+}
+
+@media all and (min-width: 600px) {
+  nav.foodmenu-nav ul {
+    padding-left: 1px;
+  }
+  nav.foodmenu-nav li {
+    float: left;
+    width: 50%;
+  }
+  nav.foodmenu-nav li:nth-child(2n+1) {
+    margin: 0 1px 1px -1px;
+  }
+}
+/*section {
+  position: fixed;
+  top: -9999px;
+  left: -9999px;
+  visibilty: hidden;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}*/
+section.active {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibilty: visible;
+  opacity: 0;
+  opacity: 1;
+}
+
+section .content {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 40px;
+  background-color: #fff;
+  overflow-y: scroll;
+  opacity: 0;
+  -ms-transform: translateX(-100%); /* IE 9 */
+  -webkit-transform: translateX(-100%); /* Safari */
+  transform: translateX(-100%);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+section .content a.close {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #b4e664;
+  color: #fff;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+section .content a.close:hover {
+  background-color: #85c420;
+}
+
+section.active .content {
+  opacity: 1;
+  -ms-transform: translateX(0); /* IE 9 */
+  -webkit-transform: translateX(0); /* Safari */
+  transform: translateX(0);
+}
