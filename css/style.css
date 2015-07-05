@@ -250,7 +250,7 @@ section.module.parallax-5 {
  
 .fix-body {
  /* this will adjust body top margin to prevent content jumping when nav gets fix  */
-    margin-top: 50px;
+    margin-top: 1.25em;
  /* adjust as per height of your menu */;
 }
 
@@ -282,23 +282,26 @@ section.module.parallax-5 {
       /*border-left: solid 10px transparent;*/
       /*border-top: none;*/
       /*border-bottom: solid 10px #fff;*/
-      /*border-right: solid 10px transparent; }*/
+      /*border-right: solid 10px transparent;*/ }
 nav#nav-main {
-  padding: 10px 0;
-  height: 46px; }
+  /*padding: 10px 0;*/
+  /*height: 46px;*/ }
   nav#nav-main ul {
+    height: 30px;
     margin: 0;
     padding: 0;
     /*text-align: center;*/ }
   nav#nav-main li {
     display: inline-block;
-    padding: 0; }
+    padding: 0px 10px;
+    /*margin: 0px 30px;*/
+    }
     nav#nav-main li:last-child {
       border-right: none; }
   nav#nav-main a {
-    /*display: block;*/
+    display: block;
     color: #5f5651;
-    padding: 15px 30px 10px 30px;
+    padding: 0px 30px;
     }
     nav#nav-main a:hover {
       background-color: #8f413a;
@@ -326,7 +329,7 @@ nav#nav-mobile {
   nav#nav-mobile a {
     display: block;
     color: #5f5651;
-    padding: 14px 30px; }
+    padding: 0px 30px; }
     nav#nav-mobile a:hover {
       background-color: #8f413a;
       color: #F8DCA5;

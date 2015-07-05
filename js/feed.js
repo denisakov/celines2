@@ -3,9 +3,13 @@ var loadButton = document.getElementById('load-more');
 var feed = new Instafeed({
   get: 'tagged',
   tagName: 'restaurant',
-  limit: 5,
+  limit: 6,
   clientId: '11abb048770444eba3c05645f3d5087e',
-  // useHttp: true,
+  
+  // remove this before deployment
+  useHttp: true,
+  
+
   after: function () {
     var images = $("#instafeed").find('a');
     $.each(images, function(index, image) {
@@ -21,7 +25,7 @@ var feed = new Instafeed({
         loadButton.setAttribute('disabled', 'disabled');
       }
   },
-  template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div></a>'
+  template: '<a href="{{link}}" target="_blank"><img src="{{model.images.low_resolution.url}}" /><div class="likes">&hearts; {{likes}}</div><br /><div class="author">{{model.user.username}}</div></a>'
 });
 feed.run();
 $('#load-more').on('click', function() {
