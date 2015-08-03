@@ -241,7 +241,7 @@ section.module.parallax-5 {
 ============================================================ */
 .fix-nav {
  /* this make our menu fixed top */
-    z-index: 9999;
+    z-index: 9989;
     position: fixed;
     left: 0;
     top: 0;
@@ -256,6 +256,7 @@ section.module.parallax-5 {
 
 .nav-container {
     background-color: #F8DCA5;
+    z-index: 9989;
 }
 #nav-trigger {
   display: none;

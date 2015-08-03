@@ -1,4 +1,4 @@
-(function(){
+$(document).ready(function(){
 
   // handle the swanky navigation/section stuff
   ////////////////////////////////////////////////////////////

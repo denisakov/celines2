@@ -31,27 +31,27 @@ nav.foodmenu-nav a:hover {
     margin: 0 1px 1px -1px;
   }
 }
-/*section {
+section.food-menu section {
   position: fixed;
   top: -9999px;
   left: -9999px;
-  visibilty: hidden;
   opacity: 0;
+  /*visibility: hidden;*/
   background: rgba(0, 0, 0, 0.8);
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
-}*/
-section.active {
-  top: 0;
+  z-index: 9999;
+}
+section.food-menu section.active {
+  top: 50px;
   bottom: 0;
   left: 0;
   right: 0;
-  visibilty: visible;
-  opacity: 0;
   opacity: 1;
+  /*visibility: visible;*/
 }
 
-section .content {
+section.food-menu section .content {
   position: absolute;
   top: 20px;
   bottom: 20px;
@@ -63,15 +63,21 @@ section .content {
   background-color: #fff;
   overflow-y: scroll;
   opacity: 0;
-  -ms-transform: translateX(-100%); /* IE 9 */
-  -webkit-transform: translateX(-100%); /* Safari */
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
   transform: translateX(-100%);
   -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  -moz-transition: opacity 0.2s, -moz-transform 0.2s;
+  -o-transition: opacity 0.2s, -o-transform 0.2s;
   transition: opacity 0.2s, transform 0.2s;
   -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-section .content a.close {
+section.food-menu section .content a.close {
   display: block;
   position: absolute;
   top: 0;
@@ -84,13 +90,30 @@ section .content a.close {
   line-height: 40px;
   text-align: center;
 }
-section .content a.close:hover {
+section.food-menu section .content a.close:hover {
   background-color: #85c420;
 }
 
-section.active .content {
+section.food-menu section.active .content {
   opacity: 1;
-  -ms-transform: translateX(0); /* IE 9 */
-  -webkit-transform: translateX(0); /* Safari */
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
   transform: translateX(0);
+}
+/* ============================================================
+  ARTICLES
+============================================================ */
+section.food-menu article h2 {
+  margin-bottom: 10px;
+  color: #323232;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+}
+section.food-menu article p {
+  margin-bottom: 20px;
+}
+section.food-menu article p:last-child {
+  margin-bottom: 0;
 }
