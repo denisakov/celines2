@@ -7,21 +7,25 @@ nav.foodmenu-nav ul {
 nav.foodmenu-nav li {
   display: block;
   margin: 0 0 1px 0;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 nav.foodmenu-nav a {
   display: block;
   padding: 20px;
-  color: #fff;
-  background-color: #b4e664;
+  color: #5f5651;
+  background-color: #F8DCA5;
   text-align: center;
 }
 nav.foodmenu-nav a:hover {
-  background-color: #85c420;
+  background-color: #8f413a;
+  color: #F8DCA5;
+  text-decoration: none;
 }
 
 @media all and (min-width: 600px) {
   nav.foodmenu-nav ul {
-    padding-left: 1px;
+    padding-left: 0px;
   }
   nav.foodmenu-nav li {
     float: left;
@@ -43,7 +47,7 @@ section.food-menu section {
   z-index: 9999;
 }
 section.food-menu section.active {
-  top: 50px;
+  top: 0px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -60,7 +64,7 @@ section.food-menu section .content {
   margin: 0 auto;
   max-width: 600px;
   padding: 40px;
-  background-color: #fff;
+  background-color: #F8DCA5;
   overflow-y: scroll;
   opacity: 0;
   -webkit-transform: translateX(-100%);
@@ -84,14 +88,14 @@ section.food-menu section .content a.close {
   right: 0;
   width: 40px;
   height: 40px;
-  background-color: #b4e664;
-  color: #fff;
+  background-color: #5f5651;
+  color: #F8DCA5;
   font-weight: 700;
   line-height: 40px;
   text-align: center;
 }
 section.food-menu section .content a.close:hover {
-  background-color: #85c420;
+  background-color: #8f413a;
 }
 
 section.food-menu section.active .content {
@@ -108,12 +112,16 @@ section.food-menu section.active .content {
 section.food-menu article h2 {
   margin-bottom: 10px;
   color: #323232;
-  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 18px;
+  /*font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  font-size: 1.5em;
 }
 section.food-menu article p {
   margin-bottom: 20px;
 }
 section.food-menu article p:last-child {
   margin-bottom: 0;
+}
+section.food-menu article price {
+  float: right;
+  font-weight: 700;
 }

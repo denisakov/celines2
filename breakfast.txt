@@ -1,0 +1,9 @@
+<h2>Breakfast</h2>
+<p>SOĞUK KAHVALTI TABAĞI<br />
+(Tereyağ, bal, peynir çeşitleri, jambon, zeytin, nutella, domates, salatalık)</p>
+<p>SICAK KAHVALTI TABAĞI <br />
+(sahanda yumurta, sosis, baharatlı küp patates, sote mantar)</p>
+<p>SİMİT TABAĞI<br />
+(simit, beyaz peynir, zeytin, domates, salatalık)</p>
+<p>KAŞARLI SİMİT<br />
+(simit arasında eritilmiş kaşar, patates cipsi)</p>
