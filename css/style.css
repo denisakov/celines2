@@ -44,6 +44,9 @@ section.module.parallax h1 {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+section#gallery-div {
+  background-color: #5f5651;
+}
 
 /* PICTURES ----------------------------------------------*/
 section.module.parallax-1 {
