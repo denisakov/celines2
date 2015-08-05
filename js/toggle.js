@@ -9,4 +9,13 @@ jQuery(document).ready(function(){
             $(this).addClass("open");
         }
     });
+    $("nav#nav-mobile ul").click(function(){
+        if ($("nav#nav-mobile ul").hasClass("expanded")) {
+            $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+            $(this).removeClass("open");
+        } else {
+            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+            $(this).addClass("open");
+        }
+    });
 });

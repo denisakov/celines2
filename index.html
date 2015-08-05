@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/burger.css">
   <link rel="stylesheet" href="css/food.css">
   <link rel="stylesheet" href="css/insta.css">
+  <link rel="stylesheet" href="css/map.css">
 
   <!-- js -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -52,36 +53,35 @@
 
   <main>
   <!-- <img src="img/content/bg/largex2.jpg" width="100%" /> -->
-        <section class="module parallax parallax-1">
-          <span id="foodpic" role="img" aria-label="Mouthwatering picture">              
-            <h1>
-              <img class="logo" alt="The logo of our dining room" src="img/menu/logo.png">
-            </h1>
+      <section class="module parallax parallax-1">
+        <span id="foodpic" role="img" aria-label="Mouthwatering picture">              
+          <h1>
+            <img class="logo" alt="The logo of our dining room" src="img/menu/logo.png">
+          </h1>
+        </span>
+      </section>
+
+      <div class="nav-container">
+        <nav id="nav-main">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#foodmenu">Menu</a></li>
+            <li><a href="#gallery-div">Gallery</a></li>
+            <li><a href="#interaction">Interaction</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>         
+        </nav>
+        <div id="nav-trigger">
+          <span>
+            <button class="c-hamburger c-hamburger--htx">
+              <span>toggle menu</span>
+            </button>
           </span>
-        </section>
-
-        <div class="nav-container">
-          <nav id="nav-main">
-            <ul>
-              <li><a href="">About</a></li>
-              <li><a href="">Menu</a></li>
-              <li><a href="">Gallery</a></li>
-              <li><a href="">Location</a></li>
-            </ul>         
-          </nav>
-          <div id="nav-trigger">
-            <span>
-              <button class="c-hamburger c-hamburger--htx">
-                <span>toggle menu</span>
-              </button>
-            </span>
-          </div>
-          <nav id="nav-mobile"></nav>
         </div>
-        
+        <nav id="nav-mobile"></nav>
+      </div>
 
-      
-      <section class="module content">
+      <section class="module content" id="about">
         <div class="container">
           
           <h2>About us</h2>
@@ -90,13 +90,13 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-2">
+      <section class="module parallax parallax-2" id="foodmenu">
         <div class="container">
           <h1>Menu</h1>
         </div>
       </section>
 
-      <section class="content module food-menu">
+      <section class="content module food-menu" >
         <div class="container">
           <h2>Food</h2>
           <nav class="foodmenu-nav">
@@ -539,13 +539,13 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-3">
+      <section class="module parallax parallax-3" id="gallery-div">
         <div class="container">
-          <h1>Galery</h1>
+          <h1>Gallery</h1>
         </div>
       </section>
 
-      <section class="module content" id="gallery-div">
+      <section class="module content">
         <div class="container" id="full-width">
           <div id="gallery">
             <img data-src="img/gallery/1.jpg" />
@@ -571,7 +571,7 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-4">
+      <section class="module parallax parallax-4" id="interaction">
         <div class="container">
           <h1>Interaction</h1>
         </div>
@@ -592,25 +592,20 @@
 
   <footer>
     <div class="container">
-      <div class="asides clearfix">
+      <div class="google-map">
+        <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Valikonagi%20Caddesi%20No%3A%2042%2FA%20Ni%C5%9Fanta%C5%9F%C4%B1%2C%20%C5%9Ei%C5%9Fli.&key=AIzaSyBl5s-PRizPyZZCcs0QQ-k5T4Igm-2f3VA"></iframe> 
+      </div>
+    </div>
+    <div class="container">
+      
+      <div class="asides clearfix" id="location">
         <aside>
           <nav>
             <ul>
-              <li><a href="http://callmenick.com/">Welcome</a></li>
-              <li><a href="http://callmenick.com/category/tutorials">Tutorials</a></li>
-              <li><a href="http://callmenick.com/category/snippets">Snippets</a></li>
-              <li><a href="http://callmenick.com/category/articles">Articles</a></li>
-              <li><a href="http://callmenick.com/category/resources">Resources</a></li>
-            </ul>
-          </nav>
-        </aside>
-        <aside>
-          <nav>
-            <ul>
-              <li><a href="http://callmenick.com/archive/">Archive</a></li>
-              <li><a href="http://callmenick.com/about">About</a></li>
-              <li><a href="http://callmenick.com/contact">Contact</a></li>
-              <li><a href="http://callmenick.com/subscribe">Subscribe</a></li>
+              <li>Valikonagi Caddesi No: 42/A Nişantaşı/Şişli</li>
+              <li>Telefon: +90 212 296 11 00 / 01</li>
+              <li>Fax: +90 212 240 12 97</li>
+              <li>E-posta: info@celinescafe.com</li>
             </ul>
           </nav>
         </aside>
