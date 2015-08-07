@@ -1,0 +1,70 @@
+button#order {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 15px;
+  font-family: "Fira";
+  vertical-align: bottom;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 10px;
+}
+button#order:focus {
+  outline: none
+}
+button#order a#order-link {
+  color:#8f413a;
+}
+button#order a#order-link:hover {
+  color:#d6b85e;
+}
+section.border button#order {
+  display: block;
+  position: absolute;
+  top:10%;
+  left: calc((100% - 248px) / 2);
+  font-size: 2em;
+  line-height: 50px;
+  text-transform: none;
+  text-shadow: none;
+  color: #8f413a;
+  background: rgba(248,220,165,0.8);
+  border: solid 5px #8f413a;
+}
+section.border button#order:hover {
+  border-color: #5f5651;
+  color: #fff;
+  background: rgba(95,86,81,0.3);
+}
+section.border button#order:active {
+  border-color: #5f5651;
+  color: #5f5651;
+}
+@media all and (max-width: 538px) { 
+  section.border button#order {
+    top:2%;
+    left: calc((100% - 172px) / 2);
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 30px;
+  }
+}
+/*@media all and (max-width: 720px) { 
+  button#order {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 540px) { 
+  section.border {
+    text-align: center
+  }
+  button#order {
+    margin: 0 10px 20px 10px;
+    font-size: 16px;
+  }
+}*/

@@ -14,12 +14,14 @@
   <!-- css -->
   <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab"> -->
   <link rel="stylesheet" href="http://code.cdn.mozilla.net/fonts/fira.css">
+  <link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/burger.css">
   <link rel="stylesheet" href="css/food.css">
   <link rel="stylesheet" href="css/insta.css">
   <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/button.css">
 
   <!-- js -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -53,8 +55,15 @@
 
   <main>
   <!-- <img src="img/content/bg/largex2.jpg" width="100%" /> -->
+      <section class="border">
+        <a href="https://www.yemeksepeti.com/en/celines-cafe-grill-nisantasi-istanbul?status=closed" id="order-link">
+          <button id="order">
+            <i class="fa fa-motorcycle"></i>&nbsp;Order food
+          </button>
+        </a>
+      </section>
       <section class="module parallax parallax-1">
-        <span id="foodpic" role="img" aria-label="Mouthwatering picture">              
+        <span id="foodpic" role="img" aria-label="Mouthwatering picture">
           <h1>
             <img class="logo" alt="The logo of our dining room" src="img/menu/logo.png">
           </h1>
@@ -64,13 +73,14 @@
       <div class="nav-container">
         <nav id="nav-main">
           <ul>
-            <li><a href="#about">About</a></li>
             <li><a href="#foodmenu">Menu</a></li>
             <li><a href="#gallery-div">Gallery</a></li>
             <li><a href="#interaction">Interaction</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#location">Location</a></li>
           </ul>         
         </nav>
+
         <div id="nav-trigger">
           <span>
             <button class="c-hamburger c-hamburger--htx">
@@ -78,27 +88,14 @@
             </button>
           </span>
         </div>
+        
         <nav id="nav-mobile"></nav>
+
       </div>
 
-      <section class="module content" id="about">
+      <section class="content module food-menu" id="foodmenu" >
         <div class="container">
-          
-          <h2>About us</h2>
-          <p>Kısa bir s&uuml;re ayrılıktan sonra, Nişantaşı&rsquo;nın meşhur &Ccedil;İ&Ccedil;EK IZGARA&rsquo;sı geri d&ouml;nd&uuml;. &Uuml;stelik daha fazla se&ccedil;enek sunan bir g&uuml;&ccedil;birliği yaparak hizmet vermeye başladı. CELINE&rsquo;S CAF&Eacute; &amp; DINING ROOM ismiyle a&ccedil;ılan bu yeni mekan, b&uuml;nyesinde hem muhteşem bir pizza ustasını hem de &Ccedil;i&ccedil;ek Izgara&rsquo;nın &ouml;zel k&ouml;ftelerini yapan Şefi G&ouml;khan Yeniay&rsquo;ı barındırıyor.<br /><br />Pizza, Hamburger ve K&ouml;fte bu mekanın &ccedil;atısı altında birleşen en &ouml;nemli &uuml;&ccedil; ana yemeği. Elbette her t&uuml;r damak zevkine hitap eden salataları unutmamak gerekiyor. Men&uuml;de herkesin peşinden koştuğu, arasında &uuml;nl&uuml; m&uuml;davimlerinin bulunduğu pideli k&ouml;fte, bol bonfileli Celine&rsquo;s pizza, &ouml;zellikle bayan m&uuml;şterilerin tercih ettiği avakado salatası g&ouml;ze &ccedil;arpıyor. Zeytinyağlı bazı &ccedil;ok &ouml;zel tabakların da dikkat &ccedil;ektiği Celine&rsquo;s Caf&eacute;&rsquo;de ayrıca burada &uuml;r&uuml;nlerin yapımında kullanılan zeytinyağları, kolonya ve bazı diğer doğal &uuml;r&uuml;nler de satılıyor.<br /><br />Dekorasyonundaki doğallık ve rustik konsepti Celine&rsquo;s Caf&eacute;&rsquo;de vakit ge&ccedil;irenleri kendine hayran bırakıyor. Arka tarafında yer alan muhteşem minik terası da Celine&rsquo;s Caf&eacute;&rsquo;ye ayrı bir g&uuml;zellik katıyor. Valikonağı Caddesi&rsquo;nin en işlek noktasında yer alan CELINE&rsquo;S CAF&Eacute; &amp; DINING ROOM haftanın her g&uuml;n&uuml; 08:00 &ndash; 22:30 saatleri arasında a&ccedil;ık. Sadece Pazar g&uuml;nleri 09:00 &ndash; 20:00 arası hizmet veriyor.</p>
-          
-        </div>
-      </section>
-
-      <section class="module parallax parallax-2" id="foodmenu">
-        <div class="container">
-          <h1>Menu</h1>
-        </div>
-      </section>
-
-      <section class="content module food-menu" >
-        <div class="container">
-          <h2>Food</h2>
+          <h2>Menu</h2>
           <nav class="foodmenu-nav">
             <ul class="clearfix">
               <li><a href="#breakfast">Breakfast</a></li>
@@ -125,7 +122,7 @@
                 (sahanda yumurta, sosis, baharatlı küp patates, sote mantar)</p>
                 <p>SİMİT TABAĞI<price>12TL</price><br />
                 (simit, beyaz peynir, zeytin, domates, salatalık)</p>
-                <p>KAŞARLI SİMİT<price>15TL</price><br />
+                <p>KAŞARLI SİMİT<price>5TL</price><br />
                 (simit arasında eritilmiş kaşar, patates cipsi)</p>
               </article>
               <a class="close" href="#">x</a>
@@ -539,13 +536,13 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-3" id="gallery-div">
+      <section class="module parallax parallax-2" id="gallery-div">
         <div class="container">
           <h1>Gallery</h1>
         </div>
       </section>
 
-      <section class="module content">
+      <section class="module content" id="gallery-div">
         <div class="container" id="full-width">
           <div id="gallery">
             <img data-src="img/gallery/1.jpg" />
@@ -571,7 +568,7 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-4" id="interaction">
+      <section class="module parallax parallax-3" id="interaction">
         <div class="container">
           <h1>Social</h1>
         </div>
@@ -584,6 +581,20 @@
             <div id="instafeed"></div>
             <button id="load-more">more</button>
           </p>
+        </div>
+      </section>
+
+      <section class="module parallax parallax-4" id="foodmenu">
+        <div class="container">
+          <h1>About</h1>
+        </div>
+      </section>
+
+      <section class="module content" id="about">
+        <div class="container">
+          
+          <h2>About us</h2>
+          <p>Kısa bir s&uuml;re ayrılıktan sonra, Nişantaşı&rsquo;nın meşhur &Ccedil;İ&Ccedil;EK IZGARA&rsquo;sı geri d&ouml;nd&uuml;. &Uuml;stelik daha fazla se&ccedil;enek sunan bir g&uuml;&ccedil;birliği yaparak hizmet vermeye başladı. CELINE&rsquo;S CAF&Eacute; &amp; DINING ROOM ismiyle a&ccedil;ılan bu yeni mekan, b&uuml;nyesinde hem muhteşem bir pizza ustasını hem de &Ccedil;i&ccedil;ek Izgara&rsquo;nın &ouml;zel k&ouml;ftelerini yapan Şefi G&ouml;khan Yeniay&rsquo;ı barındırıyor.<br /><br />Pizza, Hamburger ve K&ouml;fte bu mekanın &ccedil;atısı altında birleşen en &ouml;nemli &uuml;&ccedil; ana yemeği. Elbette her t&uuml;r damak zevkine hitap eden salataları unutmamak gerekiyor. Men&uuml;de herkesin peşinden koştuğu, arasında &uuml;nl&uuml; m&uuml;davimlerinin bulunduğu pideli k&ouml;fte, bol bonfileli Celine&rsquo;s pizza, &ouml;zellikle bayan m&uuml;şterilerin tercih ettiği avakado salatası g&ouml;ze &ccedil;arpıyor. Zeytinyağlı bazı &ccedil;ok &ouml;zel tabakların da dikkat &ccedil;ektiği Celine&rsquo;s Caf&eacute;&rsquo;de ayrıca burada &uuml;r&uuml;nlerin yapımında kullanılan zeytinyağları, kolonya ve bazı diğer doğal &uuml;r&uuml;nler de satılıyor.<br /><br />Dekorasyonundaki doğallık ve rustik konsepti Celine&rsquo;s Caf&eacute;&rsquo;de vakit ge&ccedil;irenleri kendine hayran bırakıyor. Arka tarafında yer alan muhteşem minik terası da Celine&rsquo;s Caf&eacute;&rsquo;ye ayrı bir g&uuml;zellik katıyor. Valikonağı Caddesi&rsquo;nin en işlek noktasında yer alan CELINE&rsquo;S CAF&Eacute; &amp; DINING ROOM haftanın her g&uuml;n&uuml; 08:00 &ndash; 22:30 saatleri arasında a&ccedil;ık. Sadece Pazar g&uuml;nleri 09:00 &ndash; 20:00 arası hizmet veriyor.</p>
           
         </div>
       </section>

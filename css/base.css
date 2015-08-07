@@ -290,7 +290,7 @@ footer .copyright a {
   footer aside {
     margin-bottom: 0;
     float: left;
-    width: 33.3333%;
+    /*width: 33.3333%;*/
   }
   footer nav ul {
     text-align: left;

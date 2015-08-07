@@ -16,11 +16,14 @@ nav.foodmenu-nav a {
   color: #5f5651;
   background-color: #F8DCA5;
   text-align: center;
+  /*border-radius: 0px;*/
 }
 nav.foodmenu-nav a:hover {
   background-color: #8f413a;
   color: #F8DCA5;
   text-decoration: none;
+  /*border-radius: 30px;*/
+  /*transition: border-radius 0.3s;*/
 }
 
 @media all and (min-width: 600px) {
