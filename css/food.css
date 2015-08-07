@@ -14,7 +14,7 @@ nav.foodmenu-nav a {
   display: block;
   padding: 20px;
   color: #5f5651;
-  background-color: #F8DCA5;
+  background-color: rgba(214,184,94, 0.2);
   text-align: center;
   /*border-radius: 0px;*/
 }
@@ -117,6 +117,7 @@ section.food-menu article h2 {
   color: #323232;
   /*font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
   font-size: 1.5em;
+  /*max-width:30%;*/
 }
 section.food-menu article p {
   margin-bottom: 20px;

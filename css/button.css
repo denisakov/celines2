@@ -1,9 +1,9 @@
 button#order {
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 0;
-  padding: 5px 15px;
+  padding: 10px 15px 5px 15px;
   font-family: "Fira";
-  vertical-align: bottom;
+  vertical-align: middle;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -14,7 +14,7 @@ button#order {
   -moz-border-radius: 0;
   border-radius: 10px;
 }
-button#order:focus {
+/*button#order:focus {
   outline: none
 }
 button#order a#order-link {
@@ -22,7 +22,8 @@ button#order a#order-link {
 }
 button#order a#order-link:hover {
   color:#d6b85e;
-}
+  text-decoration: none;
+}*/
 section.border button#order {
   display: block;
   position: absolute;
@@ -36,17 +37,58 @@ section.border button#order {
   background: rgba(248,220,165,0.8);
   border: solid 5px #8f413a;
 }
-section.border button#order:hover {
+div.border button#order
+ {
+  display: block;
+  position: relative;
+  /*top:10%;*/
+  /*left: calc((100% - 248px) / 2);*/
+  vertical-align: baseline;
+  font-size: 1.35em;
+  line-height: 30px;
+  text-transform: none;
+  text-shadow: none;
+  color: #8f413a;
+  background: rgba(248,220,165,0.8);
+  border: solid 5px #8f413a;
+}
+div.border.social{
+  /*display:inline;*/
+  position: relative;
+  /*top: -4em;*/
+  /*left: calc(100% / 3);*/
+  font-size: 3em;
+  /*max-width:calc(100% / 3);*/
+ }
+ul#social-list li{
+  display: inline;
+  list-style-type: none;
+  padding-right:20px;
+  /*margin:0;*/
+  /*text-align: right;*/
+  /*max-width: calc(100% / 5);*/
+}
+section.border button#order:hover{
   border-color: #5f5651;
   color: #fff;
   background: rgba(95,86,81,0.3);
 }
-section.border button#order:active {
+div.border button#order:hover{
+  border-color: #5f5651;
+  color: #fff;
+  background: rgba(95,86,81,0.3);
+}
+section.border button#order:active{
+  border-color: #5f5651;
+  color: #5f5651;
+}
+div.border button#order:active{
   border-color: #5f5651;
   color: #5f5651;
 }
 @media all and (max-width: 538px) { 
-  section.border button#order {
+  section.border button#order,
+  div.border button#order {
     top:2%;
     left: calc((100% - 172px) / 2);
     font-weight: 600;
