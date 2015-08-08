@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/insta.css">
   <link rel="stylesheet" href="css/map.css">
   <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/social_buttons.css">
 
   <!-- js -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -55,13 +56,13 @@
 
   <main>
   <!-- <img src="img/content/bg/largex2.jpg" width="100%" /> -->
-      <section class="border">
+      <div class="border">
         <a href="https://www.yemeksepeti.com/en/celines-cafe-grill-nisantasi-istanbul" id="order-link">
-          <button id="order">
+          <button class="order">
             <i class="fa fa-motorcycle"></i>&nbsp;Order food
           </button>
         </a>
-      </section>
+      </div>
       <section class="module parallax parallax-1">
         <span id="foodpic" role="img" aria-label="Mouthwatering picture">
           <h1>
@@ -80,7 +81,6 @@
             <li><a href="#location">Location</a></li>
           </ul>         
         </nav>
-
         <div id="nav-trigger">
           <span>
             <button class="c-hamburger c-hamburger--htx">
@@ -88,9 +88,7 @@
             </button>
           </span>
         </div>
-        
         <nav id="nav-mobile"></nav>
-
       </div>
 
       <section class="content module food-menu" id="foodmenu" >
@@ -114,15 +112,16 @@
           </nav>
           <section id="breakfast">
             <div class="content">
-              <article> <!--id="breakfast">-->
                 <div class="border">
                   <a href="https://www.yemeksepeti.com/en/celines-cafe-grill-nisantasi-istanbul" id="order-link">
-                    <button id="order">
+                    <button class="order">
                       <i class="fa fa-motorcycle"></i>&nbsp;Order food
                     </button>
                   </a>
                 </div>
                 <p>&nbsp;</p>
+              <article> <!--id="breakfast">-->
+                
                 <h2>Breakfast</h2>
                 <p>SOĞUK KAHVALTI TABAĞI<price>5TL</price><br />
                 (Tereyağ, bal, peynir çeşitleri, jambon, zeytin, nutella, domates, salatalık)</p>
@@ -585,46 +584,41 @@
 
       <section class="module content">
         <div class="container">
-          <ul id="social-list">
-          <li>
-            <div class="border social">
-              <a href="">
-                <button id="order">
-                  <i class="fa fa-facebook"></i>
-                </button>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="border social">
-              <a href="">
-                <button id="order">
-                  <i class="fa fa-instagram"></i>
-                </button>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="border social">
-              <a href="">
-                <button id="order">
-                  <i class="fa fa-google-plus"></i>
-                </button>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="border social">
-              <a href="">
-                <button id="order">
-                  <i class="fa fa-yelp"></i>
-                </button>
-              </a>
-            </div>
-          </li>
-          </ul>
-        </div>
-        <div class="container">
+          <div class="social">
+            <ul id="social-list">
+              <li>
+                <a href="">
+                  <button class="order">
+                    <i class="fa fa-facebook"></i>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <button class="order">
+                    <i class="fa fa-instagram"></i>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <button class="order">
+                    <i class="fa fa-google-plus"></i>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <button class="order">
+                    <i class="fa fa-yelp"></i>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        
+        <br />
+        
           <h2>Our feed</h2>
           <p>
             <div id="instafeed"></div>
@@ -633,13 +627,13 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-4" id="foodmenu">
+      <section class="module parallax parallax-4" id="about">
         <div class="container">
           <h1>About</h1>
         </div>
       </section>
 
-      <section class="module content" id="about">
+      <section class="module content" >
         <div class="container">
           
           <h2>About us</h2>
