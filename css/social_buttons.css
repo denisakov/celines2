@@ -27,11 +27,23 @@ div.social button:hover{
 div.social a, div.social a:hover, div.social a:active{
 	text-decoration: none;
 }
+@media all and (max-width: 630px) { 
+	div.social button{
+		font-size: 3em;
+		/*padding-right: 5px;*/
+		padding: 5px 5px 5px 5px;
+		margin-bottom: 10px;
+	}
+}
 @media all and (max-width: 538px) { 
 	div.social button{
 		font-size: 2.5em;
-		padding-right: 5px;
-		padding: 5px 5px 5px 5px;
-		margin-bottom: 10px;
+	}
+}
+@media all and (max-width: 425px) { 
+	div.social button{
+		font-size: 2em;
+
+		padding: 7px 2px 5px 2px;
 	}
 }

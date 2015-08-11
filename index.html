@@ -23,10 +23,12 @@
   <link rel="stylesheet" href="css/map.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/social_buttons.css">
+  <link rel="stylesheet" href="css/language.css">
 
   <!-- js -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="js/modernizr.js"></script>
+  <script src="js/translation.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/burger.js"></script>
   <script src="js/toggle.js"></script>
@@ -36,6 +38,7 @@
   <script type="text/javascript" src="js/instafeed.min.js"></script>
   <script src="js/portfolio/portfolio.pack.min.js"></script>
   <script src="js/portfolio.js"></script>
+
   <!--<script src="js/breakfast.js"></script>-->
   <!--<script src="js/parallax.js"></script>-->
 </head>
@@ -56,10 +59,18 @@
 
   <main>
   <!-- <img src="img/content/bg/largex2.jpg" width="100%" /> -->
+      <div class="lang_switcher">
+        <a href="" id="en" class="lang hidden">EN</a>
+        <span id="en-pipe" class="hidden"> | </span>
+        <a href="" id="tr" class="lang">TR</a>
+        <span id="tr-pipe"> | </span>
+        <a href="" id="ru" class="lang">RU</a>
+      </div>
+
       <div class="border">
         <a href="https://www.yemeksepeti.com/en/celines-cafe-grill-nisantasi-istanbul" id="order-link">
           <button class="order">
-            <i class="fa fa-motorcycle"></i>&nbsp;Order food
+            <i class="fa fa-motorcycle"></i><span key="order_button" class="tr">&nbsp;Order food</span>
           </button>
         </a>
       </div>
@@ -587,14 +598,14 @@
           <div class="social">
             <ul id="social-list">
               <li>
-                <a href="">
+                <a href="https://www.facebook.com/celinescafe">
                   <button class="order">
                     <i class="fa fa-facebook"></i>
                   </button>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://instagram.com/celinescaferestoran/">
                   <button class="order">
                     <i class="fa fa-instagram"></i>
                   </button>
@@ -603,7 +614,7 @@
               <li>
                 <a href="">
                   <button class="order">
-                    <i class="fa fa-google-plus"></i>
+                    <i class="fa fa-twitter"></i>
                   </button>
                 </a>
               </li>
@@ -611,6 +622,13 @@
                 <a href="">
                   <button class="order">
                     <i class="fa fa-yelp"></i>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <button class="order">
+                    <i class="fa fa-pinterest"></i>
                   </button>
                 </a>
               </li>
