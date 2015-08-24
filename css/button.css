@@ -1,5 +1,4 @@
 button:not(.c-hamburger) {
-  /*display: inline-block;*/
   margin: 0;
   padding: 10px 15px 5px 15px;
   font-family: "Fira";
@@ -14,25 +13,35 @@ button:not(.c-hamburger) {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-
-div.border button.order {
+div.border {
   display: block;
-  position: absolute;
-  top:10%;
-  left: calc((100% - 248px) / 2);
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 50px;
+}
+div.border button.order {
+  
+  
+  /*left: calc((100% - 248px) / 2);*/
   font-size: 2em;
   line-height: 50px;
-  text-transform: none;
   text-shadow: none;
   color: #8f413a;
   background: rgba(248,220,165,0.8);
   border: solid 5px #8f413a;
+  z-index: 9000;
 }
 
 div.border button.order:hover{
   border-color: #5f5651;
   color: #fff;
   background: rgba(95,86,81,0.3);
+  cursor: pointer;
+}
+
+div.border a:hover{
+text-decoration: none;
 }
 
 div.border button.order:active{
@@ -41,9 +50,10 @@ div.border button.order:active{
 }
 
 @media all and (max-width: 538px) { 
+  div.border{
+    top:15px;
+  }
   div.border button.order{
-    top:2%;
-    left: calc((100% - 172px) / 2);
     font-weight: 600;
     font-size: 1.25em;
     line-height: 30px;

@@ -49,6 +49,17 @@ section#gallery-div {
 }
 
 /* PICTURES ----------------------------------------------*/
+#foodpic {
+  position: relative;
+  top: -70px;
+}
+@media all and (max-width: 5380px) { 
+  #foodpic {
+    top:-50px;
+  }
+}
+
+
 section.module.parallax-1 {
   background-image: url("../img/content/bg7/largex2.jpg");
 }
