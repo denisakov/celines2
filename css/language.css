@@ -6,6 +6,7 @@ div.lang_switcher {
 	text-align: center;
 	top:-200px;
 	width: 100%;
+	z-index: 1;
 }
 div.lang_switcher button {
 	color: #F8DCA5;

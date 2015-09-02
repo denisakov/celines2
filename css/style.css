@@ -43,6 +43,7 @@ section.module.parallax h1 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 section#gallery-div {
   background-color: #5f5651;
@@ -50,9 +51,13 @@ section#gallery-div {
 
 /* PICTURES ----------------------------------------------*/
 #foodpic {
+  z-index:1;
+}
+#foodpic h1 img{
   position: relative;
   top: -70px;
 }
+
 @media all and (max-width: 5380px) { 
   #foodpic {
     top:-50px;

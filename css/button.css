@@ -19,10 +19,9 @@ div.border {
   text-align: center;
   width: 100%;
   top: 50px;
+  z-index: 1;
 }
 div.border button.order {
-  
-  
   /*left: calc((100% - 248px) / 2);*/
   font-size: 2em;
   line-height: 50px;
@@ -30,7 +29,6 @@ div.border button.order {
   color: #8f413a;
   background: rgba(248,220,165,0.8);
   border: solid 5px #8f413a;
-  z-index: 9000;
 }
 
 div.border button.order:hover{

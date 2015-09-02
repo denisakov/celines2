@@ -7,12 +7,15 @@ aLangKeys['tr']=new Array();
 
 aLangKeys['en']['order_button']=' Order food';
 aLangKeys['en']['menu']='Menu';
+aLangKeys['en']['breakfast']='Breakfast';
 
 aLangKeys['ru']['order_button']=' Доставка';
 aLangKeys['ru']['menu']='Меню';
+aLangKeys['ru']['breakfast']='Завтрак';
 
 aLangKeys['tr']['order_button']=' Sipariş';
 aLangKeys['tr']['menu']='Menü';
+aLangKeys['tr']['breakfast']='Kahvaltı';
 
 // onclick behavior
 $(".lang").click( function() {
