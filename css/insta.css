@@ -37,9 +37,10 @@
   font-size:0.75em;
   position:absolute;
   color:#F8DCA5;
-  right:5px;
+  right:0px;
   bottom:2em;
-  left:5px;
+  left:0px;
+  padding-right: 10px;
   opacity:1;
   text-align:right;
   line-height:1.25em;

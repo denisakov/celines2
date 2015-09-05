@@ -51,7 +51,7 @@ section.active {
   opacity: 1;
 }
 
-section .content {
+section .contents {
   position: absolute;
   top: 20px;
   bottom: 20px;
@@ -71,7 +71,7 @@ section .content {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-section .content a.close {
+section .contents a.close {
   display: block;
   position: absolute;
   top: 0;
@@ -84,11 +84,11 @@ section .content a.close {
   line-height: 40px;
   text-align: center;
 }
-section .content a.close:hover {
+section .contents a.close:hover {
   background-color: #85c420;
 }
 
-section.active .content {
+section.active .contents {
   opacity: 1;
   -ms-transform: translateX(0); /* IE 9 */
   -webkit-transform: translateX(0); /* Safari */
