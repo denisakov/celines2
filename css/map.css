@@ -1,0 +1,17 @@
+.google-map {
+    width: 100%;
+}
+.google-map iframe {
+    width: calc((100% - 40px) / 2);
+    height: 300px;
+    float: left;
+    margin-right:1em;
+}
+@media all and (max-width: 600px) {
+    .google-map iframe {
+    width: 100%;
+    margin:0 0 20px 0;
+    /*height: 300px;*/
+    /*float: left;*/
+    }
+}

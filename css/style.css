@@ -9,6 +9,9 @@ section.module h2 {
   font-family: "Fira Sans", serif;
   font-size: 2em;
 }
+section.module h2#secondh2 {
+  padding-top: 60px;
+}
 section.module p {
   margin-bottom: 40px;
   font-size: 16px;
@@ -40,9 +43,28 @@ section.module.parallax h1 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+section#gallery-div {
+  background-color: #5f5651;
 }
 
 /* PICTURES ----------------------------------------------*/
+#foodpic {
+  z-index:1;
+}
+#foodpic h1 img{
+  position: relative;
+  top: -70px;
+}
+
+@media all and (max-width: 5380px) { 
+  #foodpic {
+    top:-50px;
+  }
+}
+
+
 section.module.parallax-1 {
   background-image: url("../img/content/bg7/largex2.jpg");
 }
@@ -110,19 +132,19 @@ section.module.parallax-5 {
         height: 300px;
       }
       section.module.parallax-1 {
-        background-image: url("../img/content/bg4/small.jpg");
+        background-image: url("../img/content/bg6/small.jpg");
       }
       section.module.parallax-2 {
         background-image: url("../img/content/bg3/small.jpg");
       }
       section.module.parallax-3 {
-        background-image: url("../img/content/bg5/small.jpg");
+        background-image: url("../img/content/bg7/small.jpg");
       }
       section.module.parallax-4 {
         background-image: url("../img/content/bg2/small.jpg");
       }
       section.module.parallax-5 {
-        background-image: url("../img/content/bg8/small.jpg");
+        background-image: url("../img/content/bg1/small.jpg");
       }
       section.module.parallax h1 {
         line-height: 300px;
@@ -241,7 +263,7 @@ section.module.parallax-5 {
 ============================================================ */
 .fix-nav {
  /* this make our menu fixed top */
-    z-index: 9999;
+    z-index: 9989;
     position: fixed;
     left: 0;
     top: 0;
@@ -256,6 +278,7 @@ section.module.parallax-5 {
 
 .nav-container {
     background-color: #F8DCA5;
+    z-index: 9989;
 }
 #nav-trigger {
   display: none;
@@ -290,7 +313,7 @@ nav#nav-main {
     height: calc(3em + 2px);
     margin: 0;
     padding: 0;
-    /*text-align: center;*/ }
+  }
   nav#nav-main li {
     display: inline-block;
     padding: 0px 10px;

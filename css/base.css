@@ -106,6 +106,10 @@ main {
   margin: 0 auto;
   padding: 0 20px;
 }
+.container#full-width {
+  width: 100%;
+  max-width: 100%;
+}
 
 /* ============================================================
   INFO BAR
@@ -286,7 +290,7 @@ footer .copyright a {
   footer aside {
     margin-bottom: 0;
     float: left;
-    width: 33.3333%;
+    /*width: 33.3333%;*/
   }
   footer nav ul {
     text-align: left;

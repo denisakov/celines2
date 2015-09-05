@@ -9,4 +9,8 @@ jQuery(document).ready(function(){
             $(this).addClass("open");
         }
     });
+    $("nav#nav-mobile ul li").click(function(){
+        $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+        $(".c-hamburger").removeClass("is-active");
+    });
 });

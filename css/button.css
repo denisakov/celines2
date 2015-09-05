@@ -1,0 +1,73 @@
+button:not(.c-hamburger) {
+  margin: 0;
+  padding: 10px 15px 5px 15px;
+  font-family: "Fira";
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+div.border {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 50px;
+  z-index: 1;
+}
+div.border button.order {
+  /*left: calc((100% - 248px) / 2);*/
+  font-size: 2em;
+  line-height: 50px;
+  text-shadow: none;
+  color: #8f413a;
+  background: rgba(248,220,165,0.8);
+  border: solid 5px #8f413a;
+}
+
+div.border button.order:hover{
+  border-color: #5f5651;
+  color: #fff;
+  background: rgba(95,86,81,0.3);
+  cursor: pointer;
+}
+
+div.border a:hover{
+text-decoration: none;
+}
+
+div.border button.order:active{
+  border-color: #5f5651;
+  color: #5f5651;
+}
+
+@media all and (max-width: 538px) { 
+  div.border{
+    top:15px;
+  }
+  div.border button.order{
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 30px;
+  }
+}
+/*@media all and (max-width: 720px) { 
+  button#order {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 540px) { 
+  div.border {
+    text-align: center
+  }
+  button#order {
+    margin: 0 10px 20px 10px;
+    font-size: 16px;
+  }
+}*/
